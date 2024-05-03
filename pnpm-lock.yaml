@@ -21,9 +21,7 @@ importers:
         specifier: ^5.4.5
         version: 5.4.5
 
-  packages/demo: {}
-
-  packages/demo1:
+  packages/performance:
     devDependencies:
       father:
         specifier: ^4.4.0

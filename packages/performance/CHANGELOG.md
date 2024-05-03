@@ -1,4 +1,4 @@
-# demo
+# @mc20/performance
 
 ## 0.0.2
 

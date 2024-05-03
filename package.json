@@ -9,8 +9,8 @@
     "build:graph": "turbo run build --graph=graph.png",
     "build": "turbo run build",
     "clean": "turbo run clean",
-    "deploy": "turbo run deploy && pnpm changeset",
-    "release": "pnpm deploy && pnpm publish -r"
+    "change": "pnpm changeset && pnpm changeset version",
+    "release": "pnpm change && pnpm publish -r"
   },
   "keywords": [
     "turborepo",
