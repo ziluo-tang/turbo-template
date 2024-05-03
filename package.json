@@ -9,7 +9,7 @@
     "build:graph": "turbo run build --graph=graph.png",
     "build": "turbo run build",
     "clean": "turbo run clean",
-    "release": "pnpm changeset"
+    "deploy": "turbo run deploy && pnpm changeset"
   },
   "keywords": [
     "turborepo",
@@ -21,7 +21,6 @@
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
     "father": "^4.4.0",
-    "release-it": "^17.2.1",
     "turbo": "^1.13.3",
     "typescript": "^5.4.5"
   }
