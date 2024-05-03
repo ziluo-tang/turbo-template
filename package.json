@@ -1,0 +1,28 @@
+{
+  "name": "turbo-template",
+  "version": "1.0.0",
+  "private": true,
+  "description": "monorepo template project with turborepo and pnpm",
+  "main": "index.js",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build:graph": "turbo run build --graph=graph.png",
+    "build": "turbo run build",
+    "clean": "turbo run clean",
+    "release": "pnpm changeset"
+  },
+  "keywords": [
+    "turborepo",
+    "monorepo",
+    "template"
+  ],
+  "author": "1302947749@qq.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "father": "^4.4.0",
+    "release-it": "^17.2.1",
+    "turbo": "^1.13.3",
+    "typescript": "^5.4.5"
+  }
+}
