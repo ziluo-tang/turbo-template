@@ -11,6 +11,11 @@ $ pnpm dlx create-father <pack-name>
 $ pnpm remove father --filter "./packages/**"
 ```
 
+## 发布
+```bash
+$ pnpm publish -r
+```
+
 
 
 {{example}}
